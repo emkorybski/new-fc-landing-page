@@ -1,0 +1,27 @@
+body {
+    background: #990000;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #fff;
+    min-height: 50px;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #000;
+}
+
+footer {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    border-top:1px solid #fff;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+}

@@ -1,5 +1,5 @@
 body {
-    background: #990000;
+    background: url(../img/dark_green.jpg);
     font-family: "Open Sans", sans-serif;
 }
 
@@ -12,6 +12,7 @@ header {
     line-height: 50px;
     color: #fff;
     background: #000;
+    font-family: 'nunitobold', sans-serif;
 }
 
 footer {
@@ -24,4 +25,5 @@ footer {
     color: #fff;
     text-align: center;
     background: #000;
+    font-family: 'nunitobold', sans-serif;
 }

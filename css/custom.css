@@ -4,28 +4,28 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #fff;
-    min-height: 100px;
+    border-bottom: 1px solid #eb0000;
+    min-height: 60px;
     top: 0;
     width: 100%;
     text-align: center;
-    line-height: 100px;
+    line-height: 60px;
     color: #fff;
-    background: #222 url(../img/nu_landing_logo.png)no-repeat top center;
+   /* background: #222 url(../img/nu_landing_logo.png)no-repeat top center; */
     font-family: 'nunitobold', sans-serif;
     font-size: x-large;
 }
 
 footer {
     position: fixed;
-    height: 50px;
+    height: 40px;
     width: 100%;
     bottom: 0;
     border-top:1px solid #fff;
-    line-height: 50px;
+    line-height: 40px;
     color: #fff;
     text-align: center;
-    background: url(../img/dark_green.jpg);
+    background: #550000 /*url(../img/dark_green.jpg)*/;
 }
 
 img {
@@ -33,19 +33,27 @@ img {
     height: 100%;
     border-radius: 5px;
 }
-h1.pure-u-5-5 {
+h3.pure-u-5-5 {
     color: #eb0000;
     font-weight: normal;
-    text-transform: capitalize;
+    text-transform: lowercase;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    /*font-family: "Open Sans", sans-serif;*/
 }
-
+h4.pure-u-5-5#wayf {
+    color: #fff;
+    font-family: 'nunitobold', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
 #main {
     width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 15px;
+}
+#main .inner li  {
+    font-family: "Open Sans", sans-serif;
 }
 
 .inner {
@@ -53,8 +61,21 @@ h1.pure-u-5-5 {
     border-radius: 4px;
     border: 1px solid #444;
 }
+#main h4 {
+    font-family: "Open Sans", sans-serif;
+    color: #ececec;
+    text-transform: uppercase;
+    text-align: center;
+}
 .inner li {
     margin-left: 20px;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 10px;
+}
+
+#casino {
+    color: #fff;
+}
+#sports {
+    color: #ccc
 }

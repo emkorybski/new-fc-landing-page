@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #eb0000;
+    border-bottom: 1px solid #ccc;
     min-height: 60px;
     top: 0;
     width: 100%;
@@ -45,6 +45,7 @@ h4.pure-u-5-5#wayf {
     font-family: 'nunitobold', sans-serif;
     text-align: center;
     font-size: x-large;
+    vertical-align: middle;
 }
 #main {
     width: 1100px;
@@ -60,6 +61,7 @@ h4.pure-u-5-5#wayf {
     background-color: #222;
     border-radius: 4px;
     border: 1px solid #444;
+    list-style: none;
 }
 #main h4 {
     font-family: "Open Sans", sans-serif;
@@ -79,3 +81,79 @@ h4.pure-u-5-5#wayf {
 #sports {
     color: #ccc
 }
+
+.promo-table {
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-bottom: 15px;
+    width: 100%;
+    border-spacing: 1px;
+}
+
+.promo-table tr {
+    border-bottom: 1px solid #000;
+}
+.promo-table th, .promo-table td {
+    border-right: 1px solid #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 10px 10px;
+    text-align: center;
+}
+.promo-table th {
+    font-weight: bold;
+}
+
+
+.content {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 4px;
+    border: 1px solid #444;
+    list-style: none;
+    color:#fff;
+    font-size: smaller;
+    font-family: "Open Sans", sans-serif;
+}
+
+.content ul {
+    list-style: none;
+    padding: 15px;
+}
+.content ul li {
+    margin-bottom: 10px;
+}
+.content p, .content small {
+    padding: 15px;
+}
+
+.content-active {
+    display: block
+}
+
+.content-inactive {
+    display: none
+}
+
+.button-terms.pure-button {
+    width: 100%;
+    margin-top: 10px
+}
+
+#sign-up-now {
+    background: rgb(202, 60, 60);
+    color: #fff;
+    font-family: 'nunitobold', sans-serif;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#cashback {
+    width: 270px;
+    height: 120px;
+    margin: 30px auto;
+}
+
+

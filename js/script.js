@@ -10,21 +10,18 @@ $(document).ready(function(){
             $("#terms").addClass("content-active");
             $(this).hide();
         }
-        /*
-         else if ($("#terms").hasClass("content-active")){
-         $("#terms").removeClass("content-active");
-         $("#terms").addClass("content-inactive");
-         }
-         */
+
+
     });
     $("#close-terms").bind("click", function() {
         //console.log("CLICKED");
-        if ($("#terms").hasClass("content-active")){
+        if ($("#terms").hasClass("content-active")) {
             $("#terms").removeClass("content-active");
             $("#terms").addClass("content-inactive");
-            $(this).parent().hide();
-            $("#toggle-terms").show();
         }
+
+            $("#toggle-terms").show();
+
     });
 });
 

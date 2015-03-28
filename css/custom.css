@@ -1,17 +1,21 @@
 body {
-    background: #000;
+    background-color: #000;
+    background-image: url(../img/fc_nu_promo_page.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
     font-family: "Open Sans", sans-serif;
 }
 
 header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #444;
     min-height: 60px;
     top: 0;
     width: 100%;
     text-align: center;
     line-height: 60px;
     color: #fff;
-   /* background: #222 url(../img/nu_landing_logo.png)no-repeat top center; */
+    background: #000;
     font-family: 'nunitobold', sans-serif;
     font-size: x-large;
 }
@@ -46,6 +50,8 @@ h4.pure-u-5-5#wayf {
     text-align: center;
     font-size: x-large;
     vertical-align: middle;
+    padding-top: 20px;
+    border-top: 1px solid #444;
 }
 #main {
     width: 1100px;
@@ -73,13 +79,14 @@ h4.pure-u-5-5#wayf {
     margin-left: 20px;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 10px;
+    font-size: smaller;
 }
 
 #casino {
-    color: #fff;
+    color: #efefef;
 }
 #sports {
-    color: #ccc
+    color: #efefef
 }
 
 .promo-table {
@@ -118,6 +125,19 @@ h4.pure-u-5-5#wayf {
     font-family: "Open Sans", sans-serif;
 }
 
+.content#terms {
+    background-color: #efefef;
+    border-radius: 4px;
+    border: 10px solid #ee5f5b;
+    list-style: none;
+    color:#111;
+    font-size: smaller;
+    font-family: "Open Sans", sans-serif;
+}
+.content#terms h4 {
+    color: #000
+}
+
 .content ul {
     list-style: none;
     padding: 15px;
@@ -134,11 +154,17 @@ h4.pure-u-5-5#wayf {
 }
 
 .content-active {
-    display: block
+    display: block;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    overflow-y: scroll;
+    left: 15%;
+    top: 15%;
 }
 
 .content-inactive {
-    display: none
+    display: none;
 }
 
 .button-terms.pure-button {
@@ -158,6 +184,12 @@ h4.pure-u-5-5#wayf {
     width: 270px;
     height: 120px;
     margin: 30px auto;
+}
+
+#toggle-terms {
+    border: 10px solid #ee5f5b;
+    font-family: "Open Sans", sans-serif;
+
 }
 
 
